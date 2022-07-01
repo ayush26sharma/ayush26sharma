@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ayush Sharma</h1>
+<h1 align="center">Hi 👋, I'm Ayush</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ayush26sharma&label=Profile%20views&color=0e75b6&style=flat" alt="ayush26sharma" /> </p>
 
 <p align="left"> <a href="https://twitter.com/_ayush__sharma_" target="blank"><img src="https://img.shields.io/twitter/follow/_ayush__sharma_?logo=twitter&style=for-the-badge" alt="_ayush__sharma_" /></a> </p>
