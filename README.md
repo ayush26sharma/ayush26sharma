@@ -1,4 +1,4 @@
-![Hello There!](https://user-images.githubusercontent.com/58669560/176900367-8b4d1064-1d80-4249-a07f-711e4871400b.jpg)
+
 ## About Me:
 - An upcoming Junior at Indraprastha Institute of Technology Delhi, pursuing a B.Tech degree in Computer Science and Engineering.
 - I'm deeply interested in the domains of Physics, Data Science, Web3 and Machine Learning and currently exploring them.
