@@ -1,7 +1,7 @@
 
 ## About Me:
 - A Junior at Indraprastha Institute of Technology Delhi, pursuing a B.Tech degree in Computer Science and Engineering.
-- I'm deeply interested in the domains of Physics, Data Science, Web3 and Machine Learning and currently exploring them.
+- I'm deeply interested in the domains of Physics, Data Science and Machine Learning and currently exploring them.
 - I also have a keen interest in design and music as well, which I often practice in my leisure time.
 
 <br/>
