@@ -1,6 +1,6 @@
 # Hey, I'm Ayush Sharma
 
-**Software Development Engineer** at [Jupiter Money](https://www.jupiter.money/) | Risk Tech Team
+**Software Development Engineer** at [Jupiter Money](https://www.jupiter.money/)
 
 Building production microservices and event-driven data pipelines for risk, fraud, and credit systems. Currently owning 8+ production services handling 10K events/day with 99.9% uptime.
 
