@@ -7,7 +7,7 @@ Building production microservices and event-driven data pipelines for risk, frau
 ## What I'm working on
 
 - Designing end-to-end **fraud detection** and **credit risk** pipelines at scale
-- Leading third-party integrations (**PayU**, **CIBIL**, **Super Money**) for risk evaluation
+- Leading third-party integrations (**PayU**, **CIBIL**, **Super Money**)
 - Migrating infrastructure — Athena to Databricks, Elasticsearch to Redis Cloud, Java 17 to 21
 - Building distributed systems for real-time risk decisioning with sub-100ms latency
 
