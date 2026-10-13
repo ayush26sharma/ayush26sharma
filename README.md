@@ -1,6 +1,6 @@
 # Hey, I'm Ayush Sharma
 
-**Software Engineer** · Distributed Systems · Fintech, Risk & Lending Platforms — at [Jupiter Money](https://www.jupiter.money/)
+**Software Development Engineer II** · Distributed Systems · Fintech, Risk & Lending Platforms — at [Jupiter Money](https://www.jupiter.money/)
 
 Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 8+ production services processing 50K events/day at 99.9% uptime.
 
