@@ -2,14 +2,17 @@
 
 **Software Development Engineer II** · Distributed Systems · Fintech, Risk & Lending Platforms — at [Jupiter Money](https://www.jupiter.money/)
 
-Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 8+ production services processing 50K events/day at 99.9% uptime.
+Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 12+ production services processing 500K events/day at 99.9% uptime.
 
-## What I'm working on
+## What I've delivered
 
-- Fraud detection and credit-risk platforms spanning onboarding, underwriting, and pre-disbursal checks
-- Partner lending integrations — taking new BNPL and co-lending programs live end-to-end
-- Risk platform reliability — exposure-control guardrails, credit-bureau migrations, and model observability across 10+ production models
-- An MCP-based agentic on-call assistant (Claude + Grafana + Slack + GitHub + Jira) that cuts per-alert triage effort by 95%
+- **Fraud detection** — integrated 6+ third-party risk and fraud signals into real-time onboarding and pre-disbursal checks, blocking 30% of fraudulent users at onboarding
+- **BNPL credit line** — built the Super Money BNPL credit line and credit-limit engine from scratch, driving 30% revenue growth for the lending business
+- **Partner lending** — took 4 lending partner programs live end-to-end (incl. Super Money, GoKwik, ShopSe)
+- **Underwriting models** — ~40 credit-policy changes and a full move to new ML underwriting models, cutting false positives 20%
+- **Risk platform reliability** — automated exposure-control circuit breaker in the credit-decisioning path, plus live model-health dashboards for 10+ production models
+- **Infra cost** — migrations to Databricks and Redis Cloud and a Java 17 → 21 upgrade, cutting infrastructure cost 30%
+- **MCP-based on-call agent** — Claude + Grafana + Slack + GitHub + Jira, cutting per-alert triage effort by 95%
 
 ## Tech Stack
 
