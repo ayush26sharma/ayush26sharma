@@ -7,11 +7,10 @@ I build backend systems for fraud detection, credit underwriting and BNPL lendin
 ## What I've delivered
 
 - **Fraud detection:** integrated 6+ third-party fraud and risk signals into onboarding and pre-disbursal checks, blocking 30% of fraudulent users at onboarding
-- **BNPL credit line:** built the SuperMoney credit line and credit limit engine from scratch, which drove 30% revenue growth for lending
-- **Partner lending:** took 4 lending partners live (SuperMoney, GoKwik, ShopSe and KSF), with ₹35 Cr+ in combined monthly disbursals
+- **BNPL credit line:** built the BNPL credit line and credit limit engine from scratch and used it to take 3 lending partners live (SuperMoney, GoKwik and ShopSe), driving 30% revenue growth for lending
 - **Approvals:** added a bank statement fallback when Account Aggregator consent fails, lifting approvals by 15%+
 - **KYC cost:** replaced video KYC with liveness checks for smaller loans and moved traffic to cheaper CKYC, cutting KYC cost by ~25%
-- **Underwriting:** shipped ~40 credit policy changes and moved to new ML models, cutting false positives by 20%
+- **Underwriting:** shipped ~40 credit policy changes and new ML models for new and repeat customers, cutting false positives by 20% and default rates by 10%+
 - **Risk guardrails:** built an automated exposure circuit breaker that has triggered 20+ times in production, plus live dashboards for 10+ risk models
 - **Infra cost:** moved to Databricks and Redis Cloud and upgraded Java 17 to 21, cutting infrastructure cost by 30%
 - **AI on-call agent:** connected Claude to Grafana, Slack, GitHub and Jira using MCP, cutting alert triage effort by 95%
