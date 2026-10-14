@@ -1,18 +1,20 @@
 # Hey, I'm Ayush Sharma
 
-**Software Development Engineer II** · Distributed Systems · Fintech, Risk & Lending Platforms — at [Jupiter Money](https://www.jupiter.money/)
+**Software Development Engineer II** at [Jupiter Money](https://www.jupiter.money/) · Distributed Systems · Fintech, Risk & Lending
 
-Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 12+ production services processing 1M events/day at 99.9% uptime.
+I build backend systems for fraud detection, credit underwriting and BNPL lending, mostly in Java and Spring Boot. I own 12+ production services that process 1M events a day at 99.9% uptime.
 
 ## What I've delivered
 
-- **Fraud detection** — integrated 6+ third-party risk and fraud signals into real-time onboarding and pre-disbursal checks, blocking 30% of fraudulent users at onboarding
-- **BNPL credit line** — built the Super Money BNPL credit line and credit-limit engine from scratch, driving 30% revenue growth for the lending business
-- **Partner lending** — took 4 lending partner programs live end-to-end (incl. Super Money, GoKwik, ShopSe)
-- **Underwriting models** — ~40 credit-policy changes and a full move to new ML underwriting models, cutting false positives 20%
-- **Risk platform reliability** — automated exposure-control circuit breaker in the credit-decisioning path, plus live model-health dashboards for 10+ production models
-- **Infra cost** — migrations to Databricks and Redis Cloud and a Java 17 → 21 upgrade, cutting infrastructure cost 30%
-- **MCP-based on-call agent** — Claude + Grafana + Slack + GitHub + Jira, cutting per-alert triage effort by 95%
+- **Fraud detection:** integrated 6+ third-party fraud and risk signals into onboarding and pre-disbursal checks, blocking 30% of fraudulent users at onboarding
+- **BNPL credit line:** built the SuperMoney credit line and credit limit engine from scratch, which drove 30% revenue growth for lending
+- **Partner lending:** took 4 lending partners live (SuperMoney, GoKwik, ShopSe and KSF), with ₹35 Cr+ in combined monthly disbursals
+- **Approvals:** added a bank statement fallback when Account Aggregator consent fails, lifting approvals by 15%+
+- **KYC cost:** replaced video KYC with liveness checks for smaller loans and moved traffic to cheaper CKYC, cutting KYC cost by ~25%
+- **Underwriting:** shipped ~40 credit policy changes and moved to new ML models, cutting false positives by 20%
+- **Risk guardrails:** built an automated exposure circuit breaker that has triggered 20+ times in production, plus live dashboards for 10+ risk models
+- **Infra cost:** moved to Databricks and Redis Cloud and upgraded Java 17 to 21, cutting infrastructure cost by 30%
+- **AI on-call agent:** connected Claude to Grafana, Slack, GitHub and Jira using MCP, cutting alert triage effort by 95%
 
 ## Tech Stack
 
@@ -33,16 +35,16 @@ Building distributed Java/Spring Boot systems for fraud detection, credit underw
 ## Featured Projects
 
 ### [Movie Ticket Booking System](https://github.com/ayush26sharma/movie-ticket-booking)
-Seat-level booking backend (Spring Boot 3 + PostgreSQL) with concurrency-safe holds — a lock-free guarded conditional `UPDATE` serializes booking under a 100-thread race test with zero double-allocation.
+Seat booking backend in Spring Boot 3 and PostgreSQL. It uses a conditional `UPDATE` instead of locks to handle concurrent bookings, and a 100-thread race test shows no seat is ever double-booked.
 
 ### [Metrics Publisher Service](https://github.com/ayush26sharma/metrics-publisher-service)
-Distributed time-series metrics platform on a 4-stage Kafka pipeline, with Redis-based cardinality control, T-Digest quantile estimation, and a REST API for P95/SUM/AVG/RATE aggregations.
+Distributed time-series metrics platform on a 4-stage Kafka pipeline, with Redis-based cardinality limits, T-Digest quantile estimates and a REST API for P95, SUM, AVG and RATE queries.
 
 ### [Flow-Controlled Inter-Process Communication](https://github.com/ayush26sharma/Inter-Process-Communication-flow-controlled)
-Reliable Linux IPC in C across Unix domain sockets, FIFOs, and message queues, comparing all three under an explicit acknowledgement-based flow-control protocol.
+Reliable Linux IPC in C over Unix domain sockets, FIFOs and message queues, comparing all three under the same acknowledgement-based flow control protocol.
 
 ### [Information Retrieval & Graph Ranking Algorithms](https://github.com/ayush26sharma/CSE508_Winter2023_28)
-Inverted/positional indices, TF-IDF & Naive Bayes classification, and PageRank/HITS built from first principles — IIIT Delhi coursework.
+Inverted and positional indexes, TF-IDF and Naive Bayes classification, and PageRank and HITS, all built from scratch for IIIT Delhi coursework.
 
 ## Connect
 
