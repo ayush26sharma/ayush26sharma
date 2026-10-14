@@ -2,7 +2,7 @@
 
 **Software Development Engineer II** · Distributed Systems · Fintech, Risk & Lending Platforms — at [Jupiter Money](https://www.jupiter.money/)
 
-Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 12+ production services processing 500K events/day at 99.9% uptime.
+Building distributed Java/Spring Boot systems for fraud detection, credit underwriting, and BNPL lending — including real-time risk checks embedded directly in the disbursal path. Own 12+ production services processing 1M events/day at 99.9% uptime.
 
 ## What I've delivered
 
